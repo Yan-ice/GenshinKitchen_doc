@@ -6,12 +6,14 @@ Most dishes are *cooked* from multiple ingredients(except sausages). The dish ne
 
 |Icon       |Name        |Recipe|
 |-----------|------------|------|
-|![icon](./xc.png) | ? | ![icon](../recipes/r_xc.png) |
-|![icon](./tthnj.png) | ? |![icon](../recipes/r_tthnj.png)|
-|![icon](./xnjjj.png) | ? |![icon](../recipes/r_xnjjj.png)|
-|![icon](./smsmt.png) | ? | ![icon](../recipes/r_smsmt.png)|
-|![icon](./mjhlbjr.png) | ? | ![icon](../recipes/r_mjhlbjr.png) |
-|![icon](./lrpp.png) | ? | ![icon](../recipes/r_lrpp.png) |
+|![icon](./xc.png) | Sausage | ![icon](../recipes/r_xc.png) |
+|![icon](./tthnj.png) | Sweet Madame |![icon](../recipes/r_tthnj.png)|
+|![icon](./xnjjj.png) | Chili Chicken |![icon](../recipes/r_xnjjj.png)|
+|![icon](./smsmt.png) | Berry Miss Manjuu | ![icon](../recipes/r_smsmt.png)|
+|![icon](./lrpp.png) | Cold Cut Platter | ![icon](../recipes/r_lrpp.png) |
+|![icon](./mjhlbjr.png) | Sticky Honey Roast | ![icon](../recipes/r_mjhlbjr.png) |
+
+
 
 
 

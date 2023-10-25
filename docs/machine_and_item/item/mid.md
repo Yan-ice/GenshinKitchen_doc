@@ -10,12 +10,12 @@ By the way, please don't try to give the intermediate product to the customer, s
 
 |Icon       |Name        |Recipe|
 |-----------|------------|------|
-|![icon](./ht.png) | ? |![icon](../recipes/r_ht.png)|
-|![icon](./ljf.png) | ? | ![icon](../recipes/r_ljf.png)|
-|![icon](./mf.png) | ? | ![icon](../recipes/r_mf.png) |
-|![icon](./rp.png) | ? | ![icon](../recipes/r_rp.png) |
-|![icon](./t.png) | ? | ![icon](../recipes/r_t.png) |
-|![icon](./zrf.png) | ? | ![icon](../recipes/r_zrf.png) |
+|![icon](./ht.png) | Ham |![icon](../recipes/r_ht.png)|
+|![icon](./ljf.png) | Spice | ![icon](../recipes/r_ljf.png)|
+|![icon](./mf.png) | Flour | ![icon](../recipes/r_mf.png) |
+|![icon](./rp.png) | Sliced Meat | ![icon](../recipes/r_rp.png) |
+|![icon](./t.png) | Sugar | ![icon](../recipes/r_t.png) |
+|![icon](./zrf.png) | Cumin | ![icon](../recipes/r_zrf.png) |
 
 
 
