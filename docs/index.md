@@ -4,7 +4,6 @@
 **The traveler is undergoing an internship at the Huntsman's Restaurant and seeks your assistance!**
 
 
-
 餐馆里有各种食材，你的任务是使用这些食材，按照给定的配方，操作餐馆的各种设
 施，制作出成品菜肴。
 
@@ -12,6 +11,7 @@ The restaurant is equipped with a variety of ingredients, and your task is to
 utilize these ingredients, operate various facilities within the restaurant, and
 produce finished dishes according to the provided recipes.
 
+**Git repository:** https://github.com/Yan-ice/GenshinKitchen_2023F
 
 *Author: J.Q. Yan, R.X. Jiang, W.Q. Yan*
 
@@ -55,37 +55,39 @@ It is recommended that you try the QuickStart content first to help you get star
 项目仓库结构如下:
 ```
 GenshinKitchen/
-	Clients/
+	Doc/
+		index.md
+		...
+	GenshinKitchen_Client/
 		GenshinKitchen_Windows/
 		GenshinKitchen_Linux/
-		GenshinKitchen_MacOS/
+	HDL_Framework/
+		GenshinKitchen.srcs/
+		GenshinKitchen.xpr
 	QuickStart/
 		ScriptDemo.bit
 		ManualDemo.bit
-	Docs/
-		index.html
-		...
-	GenshinKitchen_demo/
-		src/
-		Demo.xpr
+		Script_MakeManjuu.txt
+	README.md
+	icon.png
 	
 ```
 
-**Clients** 包含Unity免费版制作的多平台软件端.
+**Doc** 包含此文档的本地版本（但可能不是最新的）。
+
+**GenshinKitchen_Client** 包含Unity制作的多平台软件客户端.
 
 **QuickStart** 包含帮助你快速上手的内容.
 
-**Docs** 即为本文档说明.
-
-**GenshinKitchen_demo/** 包含我们提供的HDL框架.
+**HDL_Framework** 包含我们提供的HDL框架.
 
 
-**Clients** includes multi-platform software produced by Unity Free Edition.
+**Doc** Contains a local version of this document (but it may not be up to date).
+
+**GenshinKitchen_Client** includes multi-platform software client produced by Unity Free Edition.
 
 **QuickStart** contains content to help you get started quickly.
 
-**Docs** is the description of this document.
-
-**GenshinKitchen_demo/** contains the basic HDL framework we provide.
+**HDL_Framework** contains the basic HDL framework we provide.
 
 
