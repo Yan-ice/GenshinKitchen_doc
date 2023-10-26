@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://example.com/client_protocol/receive_feedback/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Feedback Signal - GenshinKitchen_wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Feedback Signal";
+        var mkdocs_page_input_path = "client_protocol/receive_feedback.md";
+        var mkdocs_page_url = "/client_protocol/receive_feedback/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> GenshinKitchen_wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../overview/">Quick Start</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cooker Handbook</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../machine_and_item/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Recipes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/processing/">Processing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/combine/">Combining</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/cooking/">Cooking</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Machine</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ItemSource/">Storage Crate</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Table/">Table</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualCold/">Stone Mill</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoCold/">Cutting Machine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualCombine/">Workbench</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoCombine/">Mixer</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualHot/">Stove</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoHot/">Oven</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Bin/">Trash Bin</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Customer/">Customer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Items</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/basic/">Basic Item</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/mid/">Intermediate Product</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/final/">Cusine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/bad/">Bad Cusine</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">HDL Framework (Demo)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hdl_framework/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hdl_framework/UART_module/">UART Transmit Module</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../hdl_framework/MEM_module/">Script Memory Module</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Client Protocol</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Transmitter Protocol</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../transmit_state/">Game State</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../transmit_oper/">Traveler Operating Machine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../transmit_target/">Traveler Targeting Machine</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Receiver Protocol</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Feedback Signal</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../receive_script/">Script Loading</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Script Specification</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../scripts/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Instruction Set</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/oper/">Action Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/jump/">Jump Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/wait/">Wait Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/game_state/">Game State Instruction</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">GenshinKitchen_wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Client Protocol</li>
+          <li class="breadcrumb-item">Receiver Protocol</li>
+      <li class="breadcrumb-item active">Feedback Signal</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="feedback-signal">Feedback Signal</h2>
+<table>
+<thead>
+<tr>
+<th>data[7:6]</th>
+<th>data[5:2]</th>
+<th>data[1:0]</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td>xxxx</td>
+<td>01</td>
+<td>Traveler targeting on specific machine with ID xxxxxx.</td>
+</tr>
+</tbody>
+</table>
+<p>此类指令处于频道0b01,在接收到该条信息时,你可以解析2~5bit来了解厨房的状态.
+每一bit的具体信息如下表.</p>
+<p>This type of instruction is on channel 0b01, and when you receive this message, you can parse 2 to 5 bits to understand the state of the kitchen.
+The details of each bit are as follows.</p>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data[2]</td>
+<td>Set(1) when traveler is in front of target machine, otherwise Reset(0).</td>
+</tr>
+<tr>
+<td>data[3]</td>
+<td>Set(1) when traveler has item in hand, otherwise Reset(0).</td>
+</tr>
+<tr>
+<td>data[4]</td>
+<td>Set(1) when target machine is processing, otherwise Reset(0).</td>
+</tr>
+<tr>
+<td>data[5]</td>
+<td>Set(1) when target machine has item, otherwise Reset(0).</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../transmit_target/" class="btn btn-neutral float-left" title="Traveler Targeting Machine"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../receive_script/" class="btn btn-neutral float-right" title="Script Loading">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../transmit_target/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../receive_script/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

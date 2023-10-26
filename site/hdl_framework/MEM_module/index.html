@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://example.com/hdl_framework/MEM_module/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Script Memory Module - GenshinKitchen_wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Script Memory Module";
+        var mkdocs_page_input_path = "hdl_framework/MEM_module.md";
+        var mkdocs_page_url = "/hdl_framework/MEM_module/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> GenshinKitchen_wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../overview/">Quick Start</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Cooker Handbook</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../machine_and_item/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Recipes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/processing/">Processing</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/combine/">Combining</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/recipes/cooking/">Cooking</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Machine</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ItemSource/">Storage Crate</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Table/">Table</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualCold/">Stone Mill</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoCold/">Cutting Machine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualCombine/">Workbench</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoCombine/">Mixer</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/ManualHot/">Stove</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/AutoHot/">Oven</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Bin/">Trash Bin</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/machine/Customer/">Customer</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Items</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/basic/">Basic Item</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/mid/">Intermediate Product</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/final/">Cusine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_and_item/item/bad/">Bad Cusine</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">HDL Framework (Demo)</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../UART_module/">UART Transmit Module</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Script Memory Module</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Client Protocol</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../client_protocol/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Transmitter Protocol</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../client_protocol/transmit_state/">Game State</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../client_protocol/transmit_oper/">Traveler Operating Machine</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../client_protocol/transmit_target/">Traveler Targeting Machine</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Receiver Protocol</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../client_protocol/receive_feedback/">Feedback Signal</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../client_protocol/receive_script/">Script Loading</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Script Specification</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../scripts/Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Instruction Set</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/oper/">Action Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/jump/">Jump Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/wait/">Wait Instruction</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../scripts/game_state/">Game State Instruction</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">GenshinKitchen_wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">HDL Framework (Demo)</li>
+      <li class="breadcrumb-item active">Script Memory Module</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="script-memory-module">Script Memory Module</h1>
+<p>我们准备好了一个用于存放脚本的RAM,并处理好了脚本加载部分.</p>
+<pre><code>module ScriptMem(
+  input        clock,             // connect to the same wire of UART module
+               reset,             // connect to the same wire of UART module
+  input  [7:0] dataOut_bits,      // connect to the same wire of UART module
+  input  [7:0] dataOut_valid,     // connect to the same wire of UART module
+
+  output       script_mode,  // If script_mode is 1, you should ignore the dataOut_bits from UART module
+  input [7:0] pc,      //program counter.
+  output [15:0] script //instructions from pc.
+);
+</code></pre>
+<p>前四个接口直接和UART module的对应接口连接,ScriptMem将会通过这些接口加载脚本.</p>
+<p>The first four interfaces connect directly to the corresponding interfaces on the UART module, and ScriptMem will load scripts through these interfaces.</p>
+<p>script_mode信号为1时,代表正在加载脚本状态,此时你不应该尝试处理dataOut_bits的内容,更不应该读取该模块的script信号.
+script_mode信号为0时,你可以提供pc信号(作为地址), 并从script中获得该地址对应的指令.</p>
+<p>When the script_mode signal is 1, it means that the script state is being loaded, and you should not attempt to process the contents of the dataOut_bits, much less read the script signal of the module.
+When the script_mode signal is 0, you can provide the pc signal (as the address) and get the corresponding instruction from the script.</p>
+<p>注意: pc的地址是以byte(8bit)为单位的. 由于一个指令占2byte(16bit), 你应该时刻保持pc的值为2的倍数. <strong>在顺序执行指令时, 请执行 $pc &lt;= pc + 2$ !</strong></p>
+<p>Note: pc addresses are in bytes (8bit). Since an instruction takes up 2byte(16bit), you should always keep the value of the pc as a multiple of 2. <strong>When executing instructions sequentially, execute $pc &lt;= pc + 2$!</strong></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../UART_module/" class="btn btn-neutral float-left" title="UART Transmit Module"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../client_protocol/Introduction/" class="btn btn-neutral float-right" title="Introduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../UART_module/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../client_protocol/Introduction/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+site_name: GenshinKitchen Wiki
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - Quick Start: overview.md
+  
+  - Cooker Handbook: 
+    - Introduction: machine_and_item/Introduction.md
+    - Recipes:
+      - Processing: machine_and_item/recipes/processing.md
+      - Combining: machine_and_item/recipes/combine.md
+      - Cooking: machine_and_item/recipes/cooking.md
+    - Machine:
+      - Storage Crate: machine_and_item/machine/ItemSource.md
+      - Table: machine_and_item/machine/Table.md
+      - Stone Mill: machine_and_item/machine/ManualCold.md
+      - Cutting Machine: machine_and_item/machine/AutoCold.md
+      - Workbench: machine_and_item/machine/ManualCombine.md
+      - Mixer: machine_and_item/machine/AutoCombine.md
+      - Stove: machine_and_item/machine/ManualHot.md
+      - Oven: machine_and_item/machine/AutoHot.md
+      - Trash Bin: machine_and_item/machine/Bin.md
+      - Customer: machine_and_item/machine/Customer.md
+    - Items:
+      - Basic Item: machine_and_item/item/basic.md
+      - Intermediate Product: machine_and_item/item/mid.md
+      - Cusine: machine_and_item/item/final.md
+      - Bad Cusine: machine_and_item/item/bad.md
+  - HDL Framework (Demo):
+    - Introduction: hdl_framework/Introduction.md
+    - UART Transmit Module: hdl_framework/UART_module.md
+    - Script Memory Module: hdl_framework/MEM_module.md
+
+  - Client Protocol:
+    - Introduction: client_protocol/Introduction.md
+    - Transmitter Protocol:
+      - Game State: client_protocol/transmit_state.md
+      - Traveler Operating Machine: client_protocol/transmit_oper.md
+      - Traveler Targeting Machine: client_protocol/transmit_target.md
+      
+    - Receiver Protocol:
+      - Feedback Signal: client_protocol/receive_feedback.md
+      - Script Loading: client_protocol/receive_script.md
+  
+  - Script Specification:
+    - Introduction: scripts/Introduction.md
+    - Instruction Set:
+      - Action Instruction: scripts/oper.md
+      - Jump Instruction: scripts/jump.md
+      - Wait Instruction: scripts/wait.md
+      - Game State Instruction: scripts/game_state.md
+    
+theme: 
+  name: readthedocs
