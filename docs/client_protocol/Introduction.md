@@ -55,5 +55,21 @@ Basic channels are divided as follows, see the rest of the documentation in this
 |Receiver| XXXXXX10 | Change into Script loading mode.|
 |Receiver| XXXXXX11 | Unused. Should be ignored by Board.| 
 
+## Important note
 
+UART传输数据与客户端处理数据并反馈信号是需要时间的。
+
+It takes time for the UART to transmit data and for the client to process the data and feedback the signal.
+
+其中UART传输数据速率由波特率决定，而客户端更新反馈信号的速率固定为60Hz。
+
+The UART transmission data rate is determined by the baud rate, while the client updates the feedback signal at a fixed rate of 60Hz.
+
+因此，你有两个选择：
+1. 在硬件需要反馈时等待客户端反馈信号。
+2. 让你的处理单元使用足够慢的时钟(例如10Hz)。
+
+So you have two options:
+1. Wait for feedback signals from the client when the hardware requires feedback.
+2. Have your processing unit use a slow enough clock (e.g. 10Hz).
 
