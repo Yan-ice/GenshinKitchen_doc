@@ -69,11 +69,12 @@ Click the left button of the five buttons on the development board to reset the 
 
 - **步骤4 使用脚本**
 将提供包含脚本规范文档、脚本编译器和机器码传输协议的工具链。硬件需要能够按照预期接收、存储和运行脚本。
-简单状态:在一个重置厨房里，菜肴是由一个合适的脚本自动准备的。
+简单状态测试:在一个重置厨房里，菜肴是由一个合适的脚本自动准备的。
+在此步骤中，您可以参考demo **ScriptDemo.bit**。
 
 - **步骤5 处理异常**
 在执行脚本时，厨房中未知的状态将会被脚本自动处理。任何随机厨房不可能产生非法状态，无论厨房一开始的状态有多糟糕。
-复杂状态:在一个**随机**的厨房里，仍然可以自动准备不同的菜肴。
+复杂状态测试:在一个**随机**的厨房里，仍然可以自动准备不同的菜肴。
 
 - **步骤6 最大效率!**
 在重置厨房里，你可以用**任何手段**让旅行者在最短的时间内完成指定的三道菜:
@@ -96,12 +97,13 @@ Clone the HDL framework, and follow the guideline below:
 
 -   **Step 4. Use scripts**
     A toolchain containing a script specification document, a script compiler, and a machine code transfer protocol will be provided. The hardware needs to be able to receive, store, and run scripts as expected.
-    Simple state: In a reset kitchen, different dishes are automatically prepared by a proper script.
-    
+    Simple state test: In a reset kitchen, different dishes are automatically prepared by a proper script.
+    In this step, you can refer to the demo **ScriptDemo.bit**.
+
 -   **Step 5. Handling exception**
     When executing the script, the unknown state in the kitchen will be automatically handled by the script. 
     It is impossible for any random kitchen to produce an illegal state, no matter how bad the state of the kitchen to begin with.
-    Complex state: In a **randomized** kitchen, different dishes can still be automatically prepared.
+    Complex state test: In a **randomized** kitchen, different dishes can still be automatically prepared.
 
 -   **Step 6. Maximum efficiency!**
     In a reset kitchen，you can use **any means** to make the traveler complete the specified three courses in the shortest time:
