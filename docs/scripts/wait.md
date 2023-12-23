@@ -11,6 +11,8 @@ The action instruction has opcode 011. Such instructions will make the program e
 
 在编写指令时, 我们并不会直接填写[i_sign]数字,而是填写一些具有实际含义的[signal]. [signal]和[i_sign]的对应关系如下:
 
+When writing instructions, we do not fill in the [i_sign] number directly, but fill in some actual meaning of [signal]. The corresponding relationship between [signal] and [i_sign] is as follows:
+
 |[signal]|[i_sign]|
 |------|-----|
 |player_ready|0|

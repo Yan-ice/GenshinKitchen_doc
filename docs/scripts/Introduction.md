@@ -27,6 +27,18 @@ What you need to do is to read the specification, understand how to write the sc
 
 **i_sign** and **i_num** are the parameters required by the instructions.
 
+在编写某些指令时, 我们并不会直接填写[i_sign]数字,而是填写一些具有实际含义的[signal]. [signal]和[i_sign]的对应关系如下:
+
+When writing some instructions, we do not fill in the [i_sign] number directly, but fill in some actual meaning of [signal]. The corresponding relationship between [signal] and [i_sign] is as follows:
+
+|[signal]|[i_sign]|
+|------|-----|
+|player_ready|0|
+|player_hasitem|1|
+|target_ready|2|
+|target_hasitem|3|
+
+
 
 # Instruction Set
 基于不同op_code和func_code,指令包含以下类型:
