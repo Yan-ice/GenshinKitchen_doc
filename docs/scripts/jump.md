@@ -6,8 +6,8 @@ This type of instruction has opcode 010 and can change the execution order of th
 
 | op(func) | Format | Description|
 |------|-------|----------|
-| 010(00) | jumpif [i_num] [signal] | Jump [i_num] lines if corresponding signal is 1.|
-| 010(01) | jumpifn [i_num] [signal] | Jump [i_num] lines if corresponding signal is 0.|
+| 010(00) | jumpif [signal] [i_num] | Jump [i_num] lines if corresponding signal is 1.|
+| 010(01) | jumpifn [signal] [i_num] | Jump [i_num] lines if corresponding signal is 0.|
 
 在编写指令时, 我们并不会直接填写[i_sign]数字,而是填写一些具有实际含义的[signal]. [signal]和[i_sign]的对应关系如下:
 
@@ -25,7 +25,7 @@ For example, after the 'jumpif 6, player_hasitem' is interpreted, 'i_sign=1, i_n
 ## Examples
 
 ```
-jumpifn 2, player_hasitem
+jumpifn player_hasitem 2
 throw 20
 get 2
 

@@ -39,8 +39,8 @@ Depending on op_code and func_code, directives contain the following types:
 | 001(01) | put [i_num] | Move to the machine with ID [inum], then put an item.|
 | 001(10) | interact [i_num] | Move to the machine with ID [inum], then interact it.|
 | 001(11) | throw [i_num] | No need to move, throw item to machine with ID [inum].|
-| 010(00) | jumpif [i_num] [signal] | Jump [i_num] lines if corresponding signal is 1.|
-| 010(01) | jumpifn [i_num] [signal] | Jump [i_num] lines if corresponding signal is 0.|
+| 010(00) | jumpif [signal] [i_num] | Jump [i_num] lines if corresponding signal is 1.|
+| 010(01) | jumpifn [signal] [i_num] | Jump [i_num] lines if corresponding signal is 0.|
 | 011(00) | wait [i_num] | Wait about [inum]*100 ms.|
 | 011(01) | wait [signal] | Wait till corresponding signal is 1.|
 | 100(01) | game start | game should start.|
